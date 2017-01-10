@@ -1,0 +1,142 @@
+/* css reset */
+body, h4, h5, p{
+	margin: 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+img{
+	vertical-align: top;
+	border: none;
+}
+/* global */
+body{
+	font: 14px arial,"Microsoft Yahei";
+}
+h4, h5{
+	font-weight: normal;
+}
+.clear{
+	zoom: 1;
+}
+.clear:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.box{
+	background: url(../img/all_bg.jpg) no-repeat center/100%;
+	padding: 30px;
+}
+.life_box{
+	width: 442px;
+	height: 735px;
+	padding: 10px;
+	background-color: #fff;
+	margin: 0 auto;
+}
+.life_wrap{
+	width: 410px;
+	height: 703px;
+	padding: 16px;
+	background: url(../img/border.png) no-repeat;
+}
+.life_item{
+	padding: 15px 20px 11px 19px;
+	margin-bottom: 2px;
+	border-bottom: 1px solid #d35056;
+	border-top: 1px solid #d35056;
+	margin-top: -1px;
+}
+/* item header */
+.life_item .head{
+	line-height: 28px;
+	overflow: hidden;
+}
+.life_item .head_title{
+	float: left;
+	font-size: 18px;
+	color: #d35056;
+	background: #fff url(../img/ico_title1.jpg) no-repeat 0 5px;
+	padding: 0 6px 0 26px;
+}
+.life_check .head_title{
+	background-image: url(../img/ico_title2.jpg);
+}
+.life_doctor .head_title{
+	background-image: url(../img/ico_title3.jpg);
+}
+.more{
+	color: #d35056;
+}
+.more .more_next{
+	font-family: "仿宋";
+	font-weight: bold;
+}
+.head .more{
+	float: right;
+	font-size: 14px;
+	background-color: #fff;
+	padding-left: 9px;
+}
+.head_line{
+	display: block;
+	height: 0;
+	padding-top: 1px;
+	overflow: hidden;
+	margin-top: 14px;
+	background-color: #d35056;
+}
+/* item content */
+.life_item .content{
+	padding-left: 2px;
+}
+.con_title{
+	font-size: 16px;
+	line-height: 40px;
+}
+.con_detail .show_wrap, .con_detail .text_wrap{
+	float: left;
+}
+.con_detail .show_wrap{
+	width: 120px;
+	height: 170px;
+	padding: 4px;
+	border: 1px solid #b5b5b5;
+	margin: 3px 13px 0 0;
+}
+.con_detail .text_wrap{
+	width: 226px;
+}
+.text_wrap .atc_brief{
+	font-size: 12px;
+	line-height: 26px;
+	color: #6a6a6a;
+	padding-bottom: 8px;
+	margin-bottom: 9px;
+	border-bottom: 1px dashed #e5e5e5;
+}
+.atc_list .list_item{
+	line-height: 32px;
+	padding-left: 8px;
+	background: url(../img/dot_gray.jpg) no-repeat 0;
+}
+.life_list .list_item{
+	float: left;
+	width: 167px;
+}
+.life_list .list_item{
+	padding-left: 17px;
+}
+.life_list .atc_list{
+	padding: 16px 0 4px 2px;
+}
+.life_doctor .atc_list{
+	padding-bottom: 11px;
+}

@@ -1,0 +1,138 @@
+/* css reset */
+body, h4, h6, p{
+	margin: 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+img{
+	vertical-align: top;
+	border: none;
+}
+/* main */
+body{
+	font: 14px "Microsoft Yahei";
+}
+h4, h6{
+	font-weight: normal;
+}
+.clearfix{
+	zoom: 1;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+#box{
+	height: 769px;
+	padding-top: 30px;
+	background: url(../img/all_bg.jpg) no-repeat center/100%;
+}
+.box_over{
+	width: 412px;
+	height: 704px;
+	padding: 26px 25px 26px 26px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+.life_item{
+	padding: 15px 14px 15px 19px;
+	width: 377px;
+	background-color: #fbedee;
+	border: 1px solid #d35056;
+	margin-bottom: -1px;
+}
+.life_item .head{
+	padding-right: 6px;
+	font: 18px/28px "Microsoft Yahei";
+	background: url(../img/title_bg.png) no-repeat 105px 9px;
+}
+.head .title{
+	float: left;
+	color: #d35056;
+	background: url(../img/title_ico1.png) no-repeat 0 5px;
+	padding-left: 26px;
+}
+.more{
+	color: #d35056;
+}
+.head .more{
+	float: right;
+	font-size: 14px;
+}
+.more .more_next{
+	font-family: "仿宋";
+	font-weight: bold;
+}
+.item_cont{
+	padding-left: 2px;
+}
+.atc_title a{
+	display: block;
+	font-size: 16px;
+	line-height: 40px;
+}
+.atc_cont .show_wrap{
+	width: 120px;
+	height: 170px;
+	padding: 4px;
+	margin-top: 3px;
+	margin-right: 13px;
+	border: 1px solid #b5b5b5;
+	background-color: #fff;
+	overflow: hidden; 
+}
+.show_wrap, .atc_text{
+	float: left;	
+}
+.atc_cont .atc_text{
+	width: 232px;
+}
+.atc_text .atc_info{
+	padding-right: 6px;
+	line-height: 26px;
+	font-size: 12px;
+	color: #6a6a6a;
+	padding-bottom: 8px;
+	border-bottom: 1px dashed #e5e5e5;
+	margin-bottom: 8px;
+}
+.atc_list{
+}
+.atc_list .a_list_item{
+	padding-left: 6px;
+	background: url(../img/list_dot.jpg) no-repeat 0;
+}
+.artical_name{
+	display: block;
+	font-size: 14px;
+	line-height: 32px;
+}
+.list_health{
+	background-color: #fff;
+}
+.list_health .title{
+	background: url(../img/title_ico2.png) no-repeat 0 5px;
+}
+.list_check .title{
+	background: url(../img/title_ico3.png) no-repeat 0 5px;
+}
+.life_list .head{
+	margin-bottom: 15px;
+}
+.life_list .a_list_item{
+	padding-left: 18px;
+	float: left;
+	width: 166px;
+}
+.list_check{
+	padding-top: 19px;
+	padding-bottom: 19px;
+}
